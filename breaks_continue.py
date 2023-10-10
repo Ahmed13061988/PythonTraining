@@ -9,7 +9,12 @@
 
 phone_number = "123-456-789"
 
-for i in phone_number:
-    if i == "-":
-        continue  # this will just skip the iteration (means start the iteration again)
-    print(i, end="")
+# for i in phone_number:
+#     if i == "-":
+#         continue  # this will just skip the iteration (means start the iteration again)
+#     print(i, end="")
+for i in range(1, 21):
+    if i == 13:
+        pass # this will do nothing
+    else:
+        print(i)
