@@ -1,1 +1,3 @@
-food = ["pizza", "falafel", "burger"]
+food = ["pizza", "falafel", "burger", "hotdog", "spaghetti"]
+
+print(food[4])
