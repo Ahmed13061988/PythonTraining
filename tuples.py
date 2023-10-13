@@ -1,4 +1,4 @@
-# they are collections that group and unchangeable
+# they are collections that grouped, ordered and unchangeable
 
 students = ("Ahmed", 35, "Male")
 print(students.count("Ahmed"))
