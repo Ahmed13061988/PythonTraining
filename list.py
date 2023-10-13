@@ -1,3 +1,7 @@
 food = ["pizza", "falafel", "burger", "hotdog", "spaghetti"]
 
-print(food[4])
+for x in food:
+    for i in x:
+        if i == "z":
+            i = "o"
+print(food)
