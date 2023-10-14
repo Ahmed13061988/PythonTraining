@@ -11,6 +11,6 @@ def is_palindrome(num):
     return boolean
 
 
-print(is_palindrome(10011))
+print(is_palindrome(12345))
 
 
