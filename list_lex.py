@@ -8,4 +8,5 @@ def check(nums):
     return result
 
 
+
 print(check([10, 20, 30, 40, 30, 20]))
