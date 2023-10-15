@@ -1,4 +1,4 @@
-def shift(num,n):
+def shift(num, n):
     return num >> n
 
 
