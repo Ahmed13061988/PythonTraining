@@ -5,6 +5,4 @@ def factorial(num):
     return fact
 
 
-
-
 print(factorial(145))
