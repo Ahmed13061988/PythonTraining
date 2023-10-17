@@ -15,4 +15,4 @@ def is_leap(n):
     return leap
 
 
-print(is_leap(2000))
+print(is_leap(1760))
