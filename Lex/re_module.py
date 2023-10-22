@@ -5,4 +5,7 @@ string = "Hello! My name is Ahmed."
 
 var = re.search(r"Hello", string)
 
-print(var)
+if re.search(r"Air", "airline") != None:
+    print("Pattern found")
+else:
+    print("Pattern not found")
