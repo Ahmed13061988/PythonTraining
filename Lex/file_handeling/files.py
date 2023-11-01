@@ -10,10 +10,12 @@
 
 data = open('data.txt', 'r')
 line1 = data.readline()
-print(line1)
+print(line1, end="")
 line2 = data.readline()
-print(line2)
+print(line2, end='')
 line3 = data.readline()
 print(line3)
+
 all_lines = data.readlines()
-print(all_lines)
+for word in all_lines:
+    print(word, "here")
