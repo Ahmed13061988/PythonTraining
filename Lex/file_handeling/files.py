@@ -5,3 +5,5 @@
 # file_object is the object returned by open method which is used for further file operations.
 # Example :
 # fhr=open("data.txt","r")
+# Syntax: for file closing
+# file_object.close()
