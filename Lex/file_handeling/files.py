@@ -9,13 +9,16 @@
 # file_object.close()
 
 data = open('data.txt', 'r')
-line1 = data.readline()
-print(line1, end="")
-line2 = data.readline()
-print(line2, end='')
-line3 = data.readline()
-print(line3)
+# line1 = data.readline()
+# print(line1, end="")
+# line2 = data.readline()
+# print(line2, end='')
+# line3 = data.readline()
+# print(line3)
 
-all_lines = data.readlines()
-for word in all_lines:
-    print(word, "here")
+# all_lines = data.readlines()
+# for word in all_lines:
+#     print(word, "here")
+
+read_from_file = data.read()
+print(read_from_file)
