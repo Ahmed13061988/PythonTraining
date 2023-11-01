@@ -7,3 +7,13 @@
 # fhr=open("data.txt","r")
 # Syntax: for file closing
 # file_object.close()
+
+data = open('data.txt', 'r')
+line1 = data.readline()
+print(line1)
+line2 = data.readline()
+print(line2)
+line3 = data.readline()
+print(line3)
+all_lines = data.readlines()
+print(all_lines)
