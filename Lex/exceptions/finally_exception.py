@@ -19,5 +19,3 @@ except:
     print("Some error Occurred")
 finally:
     take_card()
-
-
