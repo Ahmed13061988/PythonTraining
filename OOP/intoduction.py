@@ -1,12 +1,11 @@
 class Mobile:
-    pass
+    def __init__(self, brand, price):
+        print("From the constructor")
+        self.brand = brand
+        self.price = price
 
 
-mob1 = Mobile()
-mob2 = Mobile()
-mob3 = Mobile()
+mob1 = Mobile("Apple", 1119)
+mob2 = Mobile("Samsung", 1200)
 
-mob1.price = 2000
-mob1.brand = "Apple"
-
-print(mob1.price)
+print(mob1.price, mob2)
