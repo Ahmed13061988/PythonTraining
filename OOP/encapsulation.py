@@ -15,8 +15,10 @@ class Customer:
     def set_wallet_balance(self, amount):
         if amount < 1000 and amount > 0:
             self.__wallet_balance = amount
+    def get_walet_balance(self):
+        return self.__wallet_balance
 
 
 c1 = Customer(100, "Gopal", 24, 1000)
 c1.set_wallet_balance(500)
-c1.show_balance()
+print(c1.get_walet_balance())
