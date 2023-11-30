@@ -37,14 +37,13 @@ class Mobile:
         total = self.price - self.price * Mobile.__discount / 100
         print("Total is ", total)
 
-    def get_discount(self):
-        return Mobile.__discount
+    @classmethod
+    def get_discount(cls):
+        return cls.__discount
 
-    def set_discount(self, discount):
-        Mobile.__discount = discount
+    @classmethod
+    def set_discount(cls, discount):
+        cls.__discount = discount
 
 
-mob1 = Mobile(20000, "Apple")
-mob2 = Mobile(30000, "Apple")
-mob3 = Mobile(5000, "Samsung")
-print(mob1.get_discount())
+print(Mobile.get_discount())
