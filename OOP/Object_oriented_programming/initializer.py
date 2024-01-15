@@ -1,5 +1,8 @@
 class Item():
-    def __init__(self, name: str, price: int, quantity: int = 0):
+    def __init__(self, name: str, price: float, quantity: int = 0):
+        # checking if the passed arguments are valid
+        assert price > 0
+        assert quantity > 0
         self.name = name
         self.price = price
         self.quantity = quantity
