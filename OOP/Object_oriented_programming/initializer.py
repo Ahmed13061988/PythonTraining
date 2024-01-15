@@ -1,4 +1,6 @@
-class Item():
+class Item:
+    pay_rate = 0.8  # The pay rate after 20% discount
+
     def __init__(self, name: str, price: float, quantity: int = 0):
         # checking if the passed arguments are valid
         assert price > 0, f"Price {price} is not greater than zer0!"
@@ -14,5 +16,4 @@ class Item():
 item1 = Item("Phone", 200, 1)
 item2 = Item("Laptop", 1000, 3)
 
-print(item1.calculate_total())
-print(item2.calculate_total())
+print(Item.pay_rate)
