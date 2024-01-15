@@ -13,3 +13,4 @@ item2 = Item()
 item2.name = "laptop"
 item2.price = 1000
 item2.quantity = 3
+print(item2.calculate_total_price(item2.price, item2.quantity))
