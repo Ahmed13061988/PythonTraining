@@ -1,5 +1,5 @@
 class Item():
-    def __init__(self, name, price, quantity=0):
+    def __init__(self, name: str, price: int, quantity: int = 0):
         self.name = name
         self.price = price
         self.quantity = quantity
@@ -10,8 +10,6 @@ class Item():
 
 item1 = Item("Phone", 200, 1)
 item2 = Item("Laptop", 1000, 3)
-
-item2.has_numpad = False
 
 print(item1.calculate_total())
 print(item2.calculate_total())
